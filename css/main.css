@@ -1,0 +1,133 @@
+/*===============================================================
+--------------------------Navigation----------------------------
+===============================================================*/
+/*Making the NavBar Fixed*/
+.navbar {
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
+/*Changing the NavBar Color*/
+nav.navbar {
+	background-color: #99e6ff;
+	border-bottom: 2px solid #007399;
+}
+.search-btn-nav {
+	background-color: #f2f2f2;
+	color: #000;
+}
+/*===============================================================
+--------------------------Jumbotron----------------------------
+===============================================================*/
+/*Adding a bold font weight to text with a class of emphasize*/
+.emphasize {
+	font-weight: 600;
+}
+/*Changing the color of the lead p tag*/
+.lead {
+	color: #2eb82e;
+}
+/*Adding an italic emphasis to text with a class italic*/
+.italic {
+	font-style: italic;
+}
+/*Changing the appearance of the primary button*/
+a.btn-primary {
+	background-color: #2eb82e;
+	border: 1px solid #248f24;
+	color: #000;
+	text-shadow: 2px 2px 1px #fff;
+}
+/*Width of primary button*/
+a.btn-primary {
+	width: 50%;
+}
+/*===============================================================
+--------------------------Section 1----------------------------
+===============================================================*/
+/*Adding a cursor change to div colums when hovered on*/
+.col-md-4:hover {
+	cursor: pointer;
+}
+/*Changing the color of the h2 tags on hover*/
+h2:hover {
+	color: #0052cc;
+}
+/*Changing the color of the text on all h2 and p tags*/
+h2, p {
+	color: #000;
+}
+/*Changing the posistion of the p tags to the bottom of the div on all section 1 colums*/
+.position-bottom {
+	position: absolute;
+	bottom: 0;
+	width: 90%;
+	margin: auto;
+}
+/*===============================================================
+--------------------------Media Queries----------------------------
+===============================================================*/
+@media (max-width: 1220px) {
+	.display-3 {
+		font-size: 55px;
+	}
+}
+@media (max-width: 1180px) {
+	a.btn-primary {
+		font-size: 16px;
+	}
+}
+@media (max-width: 1060px) {
+	.hide {
+		display: none;
+	}
+	.position-bottom {
+		position: relative;
+		padding: 20px 0;
+	}
+}
+@media (max-width: 960px) {
+	h1[style] {
+		width: 70% !important;
+	}
+}
+@media (max-width: 920px) {
+	p[style] {
+		width: 70% !important;
+	}
+}
+@media (max-width: 767px) {
+	.col-md-4 {
+		border-bottom: 1px solid #000;
+		padding-top: 10px;
+	}
+}
+@media (max-width: 700px) {
+	a.btn-primary {
+		width: 90%;
+	}
+	.display-3 {
+		font-size: 45px;
+	}
+}
+@media (max-width: 560px) {
+	.display-3 {
+		font-size: 36px;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	p, .lead {
+		font-size: 16px;
+	}
+}
+@media (max-width: 455px) {
+	p[style], h1[style] {
+		width: 90% !important;
+	}
+}
+@media (max-width: 320px) {
+	.hide-2 {
+		display: none;
+	}
+}
